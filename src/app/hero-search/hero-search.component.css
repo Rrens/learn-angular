@@ -1,0 +1,71 @@
+/* Container utama untuk search component */
+#search-component {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Gaya untuk label */
+#search-component label {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Gaya untuk input box */
+#search-component input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+/* Mengubah border saat input difokuskan */
+#search-component input:focus {
+  border-color: #007BFF;
+}
+
+/* Container untuk hasil pencarian */
+.search-result {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+/* Gaya untuk setiap item hasil pencarian */
+.search-result li {
+  margin: 10px 0;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+/* Hover effect untuk setiap item pencarian */
+.search-result li:hover {
+  transform: scale(1.02);
+}
+
+/* Gaya untuk tautan */
+.search-result a {
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Hover effect untuk tautan */
+.search-result a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
